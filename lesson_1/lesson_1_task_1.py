@@ -1,2 +1,2 @@
-name = "Катя"
+name = "Ольга"
 print (name)
