@@ -5,9 +5,12 @@
 
 lst = [11, 5, 8, 32, 15, 3, 20, 132, 21, 4, 555, 9, 20]
 
-def filtr_num (lst):
+
+def filtr_num(lst):
     for n in lst:
         if n < 30 and n % 3 == 0:
             print(n)
-#Вызвать функцию!
-filtr_num (lst)
+
+
+# Вызвать функцию!
+filtr_num(lst)
