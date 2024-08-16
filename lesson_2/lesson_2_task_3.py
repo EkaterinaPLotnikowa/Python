@@ -1,7 +1,11 @@
-def square(side):
-    area = round(side) * round(side)
-    print(area)
+import math
 
+
+def square(side):
+    area = side * side
     return area
+
+
 side = float(input("Введите размер стороны: "))
-print (square(side))
+area = square(side)
+print("Округленная лощадь", math.ceil(area))

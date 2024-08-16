@@ -1,4 +1,6 @@
 # 1. Создайте файл lesson_2_task_8.py.
 # 2. Создайте список [ 18, 14, 10, 6, 2 ] с помощью функции range() и выведите его на экран.
-for n in range(18, 0, -4):
-    print (n)
+# for n in range(18, 0, -4):
+#     print (n)
+
+print(list(range(18, 0, -4)))
